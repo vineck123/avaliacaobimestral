@@ -1,0 +1,40 @@
+/* .menu-superior {
+    grid-area: header;
+    background-color: purple
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.vertical-menu a {
+    display: block;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+    /* Dark grey background on mouse-over */
+}
